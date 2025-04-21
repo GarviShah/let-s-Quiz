@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardOption"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/quiz_option_selector"
+    android:elevation="@dimen/_4sdp"
+    app:cardCornerRadius="@dimen/_10sdp"
+    app:cardElevation="@dimen/_4sdp"
+    app:cardUseCompatPadding="true">
+
+    <TextView
+        android:id="@+id/tvOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center|start"
+        android:padding="@dimen/_10sdp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_16ssp" />
+</androidx.cardview.widget.CardView>

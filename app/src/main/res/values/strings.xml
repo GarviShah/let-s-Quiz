@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MyQuizApp</string>
+    <string name="start_the_quiz">Start the Quiz</string>
+    <string name="error_no_internet">No internet connection available.</string>
+    <string name="next">Next</string>
+    <string name="start_a_new_quiz">Start a new quiz</string>
+    <string name="your_last_score">Your Last Score :</string>
+    <string name="select_one_option">Kindly choose one of the options before continuing.</string>
+
+    <!--MARK: BackPress-->
+    <string name="plz_back_again_to_exit">Please click BACK again to exit</string>
+
+    <!--MARK: ResultActivity -->
+      <string name="result_text">You\'ve successfully completed your quiz</string>
+
+
+    <!--MARK: QuestionPagerAdapter-->
+      <string name="submit">Submit</string>
+      <string name="questions">Questions</string>
+
+
+  </resources>
